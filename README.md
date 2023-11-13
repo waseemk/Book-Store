@@ -35,6 +35,10 @@ Follow these steps to set up the application.
 5. Build assets:
 
    ```bash
+   npm run build
+   ```
+
+   ```bash
    npm run dev
    ```
 
