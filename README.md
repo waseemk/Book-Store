@@ -34,9 +34,9 @@ Follow these steps to set up the application.
 
 5. Build assets:
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 
 6. Create a `.env` file by copying the `.env.example` file:
 
@@ -84,15 +84,18 @@ npm run dev
 
 12. Access the application in your web browser at `http://localhost:8000`
 
-## Usage (Get Ready to Chuckle)
+## Usage
 
-1. Login in Admin Panel Using Url http://127.0.0.1:8000/login:
+1. Login in Admin Panel Using Url http://127.0.0.1:8000/login with
+   - **Username:** admin@gmail.com
+   - **Password:** 123456 
 
 2. Navigate to "Authors" Page to manage authors.
    - Create New Author by clicking 'Create' button
    - Update Status to Active/Inactive
    - Edit/Delete action
    - Search and filter Author data
+
 ![](https://prnt.sc/CaaP_PXkubvW)
 
 3. Follow above steps for Genre and Publisher
@@ -105,19 +108,24 @@ npm run dev
    ```bash
    php artisan queue:work
    ```
+
 ![](https://prnt.sc/rMSU2ylR1EHc)
 
 
 ## Dependencies
 
-- Laravel 10.31.0
-- Bootstrap 5.3.2
-- Vue3
-- Guzzle HTTP Client (for fetching data)
+   - Laravel 10.31.0
+   - Bootstrap 5.3.2
+   - Vue3
+   - Guzzle HTTP Client (for fetching data)
 
 ## Credits
 
-- This project uses data from [FakerAPI](https://fakerapi.it/api/v1/books?_quantity=100). We couldn't do it without them!
+   - This project uses data from [FakerAPI](https://fakerapi.it/api/v1/books?_quantity=100). We couldn't do it without them!
+
+## Authors
+
+   - * Waseem Khan (waseemkhan115@gmail.com)
 
 ## License
 
