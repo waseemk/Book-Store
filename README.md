@@ -100,7 +100,7 @@ Follow these steps to set up the application.
    - Edit/Delete action
    - Search and filter Author data
 
-![](https://prnt.sc/CaaP_PXkubvW)
+![Screenshot](public/images/authors.png)
 
 3. Follow above steps for Genre and Publisher
 
@@ -113,7 +113,7 @@ Follow these steps to set up the application.
    php artisan queue:work
    ```
 
-![](https://prnt.sc/rMSU2ylR1EHc)
+![Screenshot](public/images/books.png)
 
 
 ## Dependencies
